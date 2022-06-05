@@ -1,0 +1,19 @@
+{
+    "name": "pcore/config",
+    "type": "library",
+    "homepage": "https://github.com/pcore-framework/config",
+    "authors": [
+        {
+            "name": "Magomedcoder",
+            "email": "info@magomedcoder.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PCore\\Config\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
