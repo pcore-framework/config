@@ -1,6 +1,7 @@
 {
     "name": "pcore/config",
     "type": "library",
+    "license": "MIT",
     "homepage": "https://github.com/pcore-framework/config",
     "authors": [
         {
