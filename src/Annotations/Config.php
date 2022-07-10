@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace PCore\Config\Annotations;
 
-use PCore\Di\Context;
-use PCore\Di\Reflection;
 use Attribute;
 use PCore\Aop\Contracts\PropertyAttribute;
 use PCore\Aop\Exceptions\PropertyHandleException;
 use PCore\Config\Contracts\ConfigInterface;
+use PCore\Di\{Context, Reflection};
 
 /**
  * Class Config
