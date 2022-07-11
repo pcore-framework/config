@@ -21,7 +21,7 @@ class Config implements PropertyAttribute
 
     /**
      * @param string $key ключ
-     * @param mixed|null $default значение по умолчанию
+     * @param null|mixed $default значение по умолчанию
      */
     public function __construct(
         protected string $key,
