@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace PCore\Config\Annotations;
 
 use Attribute;
-use PCore\Aop\Contracts\PropertyAttribute;
+use PCore\Aop\Contracts\PropertyAnnotation;
 use PCore\Aop\Exceptions\PropertyHandleException;
 use PCore\Config\Contracts\ConfigInterface;
 use PCore\Di\{Context, Reflection};
@@ -16,7 +16,7 @@ use PCore\Di\{Context, Reflection};
  * @github https://github.com/pcore-framework/config
  */
 #[Attribute(Attribute::TARGET_PROPERTY)]
-class Config implements PropertyAttribute
+class Config implements PropertyAnnotation
 {
 
     /**
